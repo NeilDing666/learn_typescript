@@ -19,7 +19,8 @@ then you can start 😊
 6. `git commit -m 'your message'`
 7. `git push`
 8. create a pull request
-9. 
+9. if no conflicts, then merge
+10. finished
 ##01 Data Type
 * number
 * string
