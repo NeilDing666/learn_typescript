@@ -1,0 +1,33 @@
+{
+  "name": "learn_typescript",
+  "version": "1.0.0",
+  "description": "by Neil Ding Thu 13/08/2020 ##00 Git process **Note: You must have git.**<br> Clone develop branch into your local repo by using [https](https://github.com/NeilDing666/learn_typescript.git) or [SSH](git@github.com:NeilDing666/learn_typescript.git).<br> cd into your dictionary, e.g. `cd Dev`<br> then run this in your terminal:<br> `git clone https://github.com/NeilDing666/learn_typescript.git` <br> or<br> `git clone git@github.com:NeilDing666/learn_typescript.git` then run<br> `git flow init`<br> then you can start 😊 1. `git flow feature start ticket-number/feature-name` 2. start editing 3. `git status` 4. `git diff` 5. `git add -u` 6. `git commit -m 'your message'` 7. `git push` 8. create a pull request 9. if no conflicts, then merge 10. finished ##01 Data Type * number * string * boolean * array * enum * any * undefined * null * void",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config prod.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "cross-env NODE_ENV=development webpack-dev-server --mode=development --config build/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeilDing666/learn_typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeilDing666/learn_typescript/issues"
+  },
+  "homepage": "https://github.com/NeilDing666/learn_typescript#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.2",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-merge": "^5.1.2"
+  }
+}
